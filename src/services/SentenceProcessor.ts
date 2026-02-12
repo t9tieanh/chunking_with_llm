@@ -1,5 +1,5 @@
 import * as natural from "natural";
-import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
+import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
 import { SentenceObject } from "../types/index.js";
 import { SubtitleParser } from "../utils/SubtitleParser.js";
 
@@ -11,7 +11,7 @@ export class SentenceProcessor {
      * Splits a given text corpus into an array of sentences using NLP.
      * Automatically detects and parses subtitle format if present.
      *
-     * This function utilizes `natural.SentenceTokenizerNew` to tokenize the provided text corpus
+     * This function utilizes `natural.SentenceTokenizer` to tokenize the provided text corpus
      * into individual sentences. It's designed to accurately recognize sentence boundaries
      * and split the text accordingly. The tokenizer's efficiency and accuracy in identifying
      * sentence endings allow for reliable sentence segmentation, which is crucial for
@@ -35,7 +35,8 @@ export class SentenceProcessor {
             return parsedSubtitles.map(sub => sub.content);
         }
 
-        const tokenizer = new natural.SentenceTokenizerNew();
+        // Note: Natural 8.x has incorrect type definitions - the constructor actually accepts optional parameters
+        const tokenizer = new (natural.SentenceTokenizer as any)([]);
         const sentences = tokenizer.tokenize(textCorpus);
         return sentences;
     }
@@ -70,7 +71,7 @@ export class SentenceProcessor {
 
         const output = await splitter.createDocuments([textCorpus]);
 
-        return output.map((out) => out.pageContent);
+        return output.map((out: { pageContent: string }) => out.pageContent);
     }
 
     /**

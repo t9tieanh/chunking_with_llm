@@ -14,33 +14,39 @@ export class SemanticChunkingService {
         this.semanticAnalyzer = new SemanticAnalyzer();
     }
     async processTextFile(filePath, config = {}) {
-        const { bufferSize = 1, } = config;
+        const { bufferSize = 1, percentileThreshold = 80, } = config;
         const textCorpus = await this.documentLoader.loadTextFile(filePath);
-        console.log('1. textCorpus', textCorpus);
-        const sentences = this.sentenceProcessor.splitToSentencesUsingNLP(textCorpus);
-        console.log('2. sentences', sentences);
-        const structuredSentences = this.sentenceProcessor.structureSentences(sentences, bufferSize);
-        console.log('3. structuredSentences', structuredSentences);
-        return [];
-    }
-    async processDocxFile(filePath, config = {}) {
-        const { bufferSize = 1, percentileThreshold = 90, } = config;
-        const textCorpus = await this.documentLoader.loadDocxFile(filePath);
-        const sentences = this.sentenceProcessor.splitToSentencesUsingNLP(textCorpus);
-        const structuredSentences = this.sentenceProcessor.structureSentences(sentences, bufferSize);
+        const structuredSentences = this.sentenceProcessor.structureSubtitles(textCorpus, bufferSize);
         const sentencesWithEmbeddings = await this.embeddingService.generateAndAttachEmbeddings(structuredSentences);
         const { updatedArray, significantShiftIndices } = this.semanticAnalyzer.calculateCosineDistancesAndSignificantShifts(sentencesWithEmbeddings, percentileThreshold);
         const semanticChunks = this.semanticAnalyzer.groupSentencesIntoChunks(updatedArray, significantShiftIndices);
         return semanticChunks;
     }
     logSemanticChunks(semanticChunks) {
-        console.log(`Total Chunks Processed : ${semanticChunks.length}`);
-        console.log("Semantic Chunks:\n");
+        console.log(`\n${'='.repeat(80)}`);
+        console.log(`Total Chunks Processed: ${semanticChunks.length}`);
+        console.log(`${'='.repeat(80)}\n`);
         semanticChunks.forEach((chunk, index) => {
-            console.log(`Chunk #${index + 1}:`);
-            console.log(chunk);
-            console.log("\n--------------------------------------------------\n");
+            console.log(`\n${'-'.repeat(80)}`);
+            console.log(`Chunk #${index + 1}`);
+            console.log(`${'-'.repeat(80)}`);
+            if (chunk.metadata) {
+                console.log(`\n📊 Metadata:`);
+                if (chunk.metadata.timestamp) {
+                    console.log(`  ⏱️  Timestamp: ${chunk.metadata.timestamp}`);
+                }
+                if (chunk.metadata.subtitleIndex !== undefined) {
+                    console.log(`  🔢 Subtitle Index: ${chunk.metadata.subtitleIndex}`);
+                }
+                if (chunk.metadata.sentenceCount) {
+                    console.log(`  📝 Sentences: ${chunk.metadata.sentenceCount}`);
+                }
+            }
+            console.log(`\n📄 Content:`);
+            console.log(chunk.content);
+            console.log();
         });
+        console.log(`\n${'='.repeat(80)}\n`);
     }
 }
 //# sourceMappingURL=SemanticChunkingService.js.map

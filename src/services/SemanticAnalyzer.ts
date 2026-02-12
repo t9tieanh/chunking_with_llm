@@ -30,7 +30,7 @@ export class SemanticAnalyzer {
      * const similarity = analyzer.cosineSimilarity(vectorA, vectorB);
      * console.log(similarity); // Output: similarity score as a number
      */
-    cosineSimilarity(vecA: number[], vecB: number[]): number {
+    private cosineSimilarity(vecA: number[], vecB: number[]): number {
         const dotProduct = math.dot(vecA, vecB) as number;
 
         const normA = math.norm(vecA) as number;

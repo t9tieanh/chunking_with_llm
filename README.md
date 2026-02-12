@@ -255,10 +255,11 @@ src/
 ## 🔧 Technologies Used
 
 - **TypeScript**: Type-safe development
-- **Natural**: NLP sentence tokenization
-- **LangChain**: Text splitting utilities
-- **OpenAI**: Embedding generation
-- **Math.js**: Vector mathematics
+- **Natural 8.x**: NLP sentence tokenization
+- **LangChain 1.2**: Text splitting utilities
+- **@langchain/openai 1.2**: Embedding generation
+- **@langchain/textsplitters 1.0**: Advanced text splitting
+- **Math.js 15.x**: Vector mathematics
 - **D3-Array**: Statistical functions (percentile calculation)
 
 ## 📝 Data Types

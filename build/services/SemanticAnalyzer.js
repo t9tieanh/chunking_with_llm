@@ -52,10 +52,86 @@ export class SemanticAnalyzer {
         adjustedBreakpoints.forEach((breakpoint) => {
             const group = sentenceObjectArray.slice(startIdx, breakpoint + 1);
             const combinedText = group.map((item) => item.sentence).join(" ");
-            chunks.push(combinedText);
+            const firstSentence = group[0];
+            const lastSentence = group[group.length - 1];
+            const chunkMetadata = {
+                sentenceCount: group.length,
+                startSentenceIndex: firstSentence.index,
+                endSentenceIndex: lastSentence.index,
+            };
+            if (firstSentence.metadata) {
+                chunkMetadata.subtitleIndex = firstSentence.metadata.subtitleIndex;
+                chunkMetadata.startTime = firstSentence.metadata.startTime;
+            }
+            if (lastSentence.metadata) {
+                chunkMetadata.endTime = lastSentence.metadata.endTime;
+                if (chunkMetadata.startTime && chunkMetadata.endTime) {
+                    chunkMetadata.timestamp = `${chunkMetadata.startTime} --> ${chunkMetadata.endTime}`;
+                }
+            }
+            chunks.push({
+                content: combinedText,
+                metadata: chunkMetadata,
+            });
             startIdx = breakpoint + 1;
         });
-        return chunks;
+        return this.mergeShortChunks(chunks);
+    }
+    mergeShortChunks(chunks, minSentences = 2) {
+        if (chunks.length === 0)
+            return chunks;
+        const mergedChunks = [];
+        let i = 0;
+        while (i < chunks.length) {
+            const currentChunk = chunks[i];
+            const sentenceCount = currentChunk.metadata?.sentenceCount || 1;
+            if (sentenceCount >= minSentences) {
+                mergedChunks.push(currentChunk);
+                i++;
+            }
+            else {
+                const hasPrevious = mergedChunks.length > 0;
+                const hasNext = i + 1 < chunks.length;
+                if (hasPrevious && !hasNext) {
+                    const prevChunk = mergedChunks[mergedChunks.length - 1];
+                    mergedChunks[mergedChunks.length - 1] = this.mergeTwoChunks(prevChunk, currentChunk);
+                    i++;
+                }
+                else if (!hasPrevious && hasNext) {
+                    const nextChunk = chunks[i + 1];
+                    mergedChunks.push(this.mergeTwoChunks(currentChunk, nextChunk));
+                    i += 2;
+                }
+                else if (hasPrevious && hasNext) {
+                    const prevChunk = mergedChunks[mergedChunks.length - 1];
+                    mergedChunks[mergedChunks.length - 1] = this.mergeTwoChunks(prevChunk, currentChunk);
+                    i++;
+                }
+                else {
+                    mergedChunks.push(currentChunk);
+                    i++;
+                }
+            }
+        }
+        return mergedChunks;
+    }
+    mergeTwoChunks(chunk1, chunk2) {
+        const combinedContent = `${chunk1.content} ${chunk2.content}`;
+        const mergedMetadata = {
+            subtitleIndex: chunk1.metadata?.subtitleIndex,
+            startTime: chunk1.metadata?.startTime,
+            endTime: chunk2.metadata?.endTime,
+            sentenceCount: (chunk1.metadata?.sentenceCount || 0) + (chunk2.metadata?.sentenceCount || 0),
+            startSentenceIndex: chunk1.metadata?.startSentenceIndex,
+            endSentenceIndex: chunk2.metadata?.endSentenceIndex,
+        };
+        if (mergedMetadata.startTime && mergedMetadata.endTime) {
+            mergedMetadata.timestamp = `${mergedMetadata.startTime} --> ${mergedMetadata.endTime}`;
+        }
+        return {
+            content: combinedContent,
+            metadata: mergedMetadata,
+        };
     }
 }
 //# sourceMappingURL=SemanticAnalyzer.js.map

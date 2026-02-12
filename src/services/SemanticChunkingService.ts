@@ -57,14 +57,6 @@ export class SemanticChunkingService {
             bufferSize
         );
 
-        console.log('2. Structured sentences with metadata:',
-            structuredSentences.slice(0, 5).map(s => ({
-                content: s.sentence,
-                metadata: s.metadata,
-                combined: s.combined_sentence
-            }))
-        );
-
         // Step 3: Generate embeddings for these combined sentences
         const sentencesWithEmbeddings =
             await this.embeddingService.generateAndAttachEmbeddings(

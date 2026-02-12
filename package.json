@@ -17,25 +17,28 @@
   "license": "ISC",
   "devDependencies": {
     "@types/d3-array": "^3.2.1",
-    "@types/node": "^20.1.0",
+    "@types/node": "^25.2.3",
     "@types/numjs": "^0.16.8",
     "ts-node": "^10.9.2",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@langchain/openai": "^0.0.26",
+    "@langchain/community": "^1.1.15",
+    "@langchain/core": "^1.1.24",
+    "@langchain/openai": "^1.2.7",
+    "@langchain/textsplitters": "^1.0.1",
     "compromise": "^14.13.0",
     "d3-array": "^3.2.4",
-    "dotenv": "^16.0.3",
-    "langchain": "^0.1.31",
+    "dotenv": "^17.2.4",
+    "langchain": "^1.2.23",
     "mammoth": "^1.7.1",
-    "mathjs": "^12.4.1",
-    "natural": "^6.12.0",
+    "mathjs": "^15.1.1",
+    "natural": "^8.1.0",
     "node-nlp": "^4.27.0",
     "numjs": "^0.16.1",
     "statistics-js": "^1.0.2",
     "youtube-transcript": "^1.1.0",
-    "youtubei.js": "^9.2.0"
+    "youtubei.js": "^16.0.1"
   }
 }
