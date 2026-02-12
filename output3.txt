@@ -1,0 +1,193 @@
+
+================================================================================
+Total Chunks Processed: 14
+================================================================================
+
+
+--------------------------------------------------------------------------------
+Chunk #1
+--------------------------------------------------------------------------------
+
+📊 Metadata:
+  ⏱️  Timestamp: 00:00:00,031 --> 00:00:14,451
+  🔢 Subtitle Index: 1
+  📝 Sentences: 4
+
+📄 Content:
+Chào các bạn, chào mừng các bạn quay lại với channel của Duy Luân Dễ Thương Video ngày hôm nay là một phần trong series Luân Đi Làm là series mà mình kể về các trải nghiệm hay là những kinh nghiệm của mình liên quan tới việc đi làm đặc biệt là trong lĩnh vực tech Chủ đề mà mình sẽ nói về ngày hôm nay là một chủ đề gây tranh cãi
+
+
+--------------------------------------------------------------------------------
+Chunk #2
+--------------------------------------------------------------------------------
+
+📊 Metadata:
+  ⏱️  Timestamp: 00:00:14,951 --> 00:02:09,210
+  🔢 Subtitle Index: 5
+  📝 Sentences: 29
+
+📄 Content:
+rất nhiều đó là các bạn làm tech nhất là bạn developer ha thì xài Win hay là xài Mac hay là Linux Rồi mời các bạn theo dõi nha ý tưởng để mình làm video này xuất phát từ một cái clip mình xem trên Tiktok á thì của anh đó là một cựu nhân viên Netflix ảnh nói là trong công ty ổng á developer là xài Mac hết và những công ty ổng làm qua cũng đều như vậy bản thân những công ty mình đã từng làm qua cũng giống như vậy các bạn Anh em Developer thì chắc phải 99% là xài Mac 1% còn lại là mua máy Win nhưng mà cũng không xài Win mà các bạn nó cài Linux vào Thì nó có lý do cho những cái việc này Thứ nhất là bây giờ mình nói về cái việc trong những tình huống nào mà mình thấy là các anh em Developer xài máy Win thì nó sẽ có lợi ha Tất nhiên khi các bạn phát triển những phần mềm, những giải pháp liên quan tới Windows. Mình ví dụ như ngày xưa lúc mà mình làm những hệ thống liên quan tới ERP và hệ thống kế toán mà nó có phần mềm chỉ Windows Form thì đương nhiên bạn phải xài máy Win rồi. Đâu có lý do gì bạn phải xài máy Mac đâu. Những công cụ, những cách làm, thậm chí user interface nó cũng được tối ưu dành cho Windows. Vậy thì các bạn xài Win là hợp lý. Rồi một số cái giải pháp của Microsoft ví dụ như là làm SP.NET nè hay là mình thấy có một số anh em thì làm kiểu Enterprise Portal mà dựa trên Exchange rồi SharePoint này kia để mọi người cũng dùng Windows nhiều hơn. Chuyện đó hoàn toàn hợp lý bởi vì những cái giải pháp mà các bạn dùng để đếp là nó tối ưu cho Windows, nó đâu có tối ưu cho Mac đâu. Bây giờ mua cái máy Mac về rồi làm sao làm việc, làm sao kiếm cơm ăn. Hợp lý không? Còn đối với những bạn mà mình thấy làm front-end, back-end, anh em data xung quanh mình, và nhiều công ty khác nữa, các bạn làm product, các bạn có thể làm UI, UX, các bạn có thể làm quản lý sản phẩm, những thứ đó không liên quan tới technical nhiều lắm. Hay là các bạn làm graphics, thì đa số các bạn xung quanh mình cũng đều sẽ mát hết. Lý do thứ nhất là vì máy mát đẹp rồi và so với những con Windows khác trong
+
+
+--------------------------------------------------------------------------------
+Chunk #3
+--------------------------------------------------------------------------------
+
+📊 Metadata:
+  ⏱️  Timestamp: 00:02:09,710 --> 00:03:26,758
+  🔢 Subtitle Index: 34
+  📝 Sentences: 21
+
+📄 Content:
+cường quản đập giá thì máy mát nó tốt hơn về mạng hình, trackpad và những thứ mà các bạn sẽ giải nghiệm bình thường Những thứ đó thật ra không quan trọng bằng cái điểm này Có những công cụ khi các bạn cài lên Mac hoặc là các bạn cài lên Linux thì nó sẽ ít bị lỗi hơn Windows. Ngày xưa lúc mà mình từng cài Docker lên Windows để mà mình xài, trời nó lỗi và sau đó mình phải fix rất là cực. Bây giờ thì đỡ hơn rồi ha. Trong team mình ngày xưa có một anh Data Engineer thì nguyên team coi như là xài Mac hết, có mình ảnh là xài Win thôi. Thì không gặp vấn đề gì về việc collaboration và làm việc chung với nhau. Nhưng mà đôi khi lúc mà chạy những container hay là làm một số thứ liên quan tới Library thì bên Win nó bị lỗi các bạn và phải dành thời gian ra để fix cái chuyện đó có khi mất cả ngày chỉ để ngồi fix những cái lỗi như vậy thôi rồi sau đó cuối cùng ổng cũng bán cái con máy Win của ổng đi ổng mua Mac về xài cho nó nhẹ đời thì đó là những cái trải nghiệm mà mình đã từng gặp khi mà mình làm những cái việc tag liên quan tới Windows bản thân mình ngày xưa mình cũng đã từng cài những cái công cụ lên Win với lại ngày xưa các bạn biết không cái thời đó mình còn xài là Nó kêu là giải pháp Microsoft SQL Server Analysis là SSIS thì cái đó cũng không có cho mát cho nên là mình phải cài Win trực tiếp lên con máy GoPro của mình luôn để mà mình thao tác và mình vẽ mấy cái khối Cube, OLAP các kiểu. Trong quá trình đó setup mình cũng Đôi khi cũng gặp
+
+
+--------------------------------------------------------------------------------
+Chunk #4
+--------------------------------------------------------------------------------
+
+📊 Metadata:
+  ⏱️  Timestamp: 00:03:27,258 --> 00:03:36,018
+  🔢 Subtitle Index: 55
+  📝 Sentences: 3
+
+📄 Content:
+những cái lỗ rất là vớ vẩn mà những cái lỗ đó có thể switch bằng cách là gỡ hết tất cả mọi thứ ra rồi cài lại. Chỉ có một lần nặng á, mình không biết vì sao mình phải cài lại Win luôn thì lúc đó nó
+
+
+--------------------------------------------------------------------------------
+Chunk #5
+--------------------------------------------------------------------------------
+
+📊 Metadata:
+  ⏱️  Timestamp: 00:03:36,518 --> 00:03:43,398
+  🔢 Subtitle Index: 58
+  📝 Sentences: 2
+
+📄 Content:
+mới chạy được. Những cái trải nghiệm không tốt đó khiến cho bản thân mình không chọn Win làm cái môi trường làm development của mình. Mình không nói là
+
+
+--------------------------------------------------------------------------------
+Chunk #6
+--------------------------------------------------------------------------------
+
+📊 Metadata:
+  ⏱️  Timestamp: 00:03:43,898 --> 00:04:12,883
+  🔢 Subtitle Index: 60
+  📝 Sentences: 8
+
+📄 Content:
+các bạn xài Win thì giỡn hơn hay là các bạn xài Win thì không nên nha. Thật ra những cái việc mà mình làm nó đều hoàn toàn làm được trên Win hết, và thậm chí là productivity nó cũng sẽ y chang như mình thôi. Chỉ là đôi khi mình gặp mấy cái lỗi như vậy thì nó sửa khó hơn so với lại Mac và Linux. Đó cũng là lý do tại sao khá là nhiều anh em hiện nay các bạn mua những con laptop, thậm chí laptop gaming về luôn, các bạn cài thêm Linux xong xong vào. Windows thì để các bạn chơi game, các bạn giải trí, hoặc là các bạn làm những cái việc liên quan tới media, giống như edit clip này
+
+
+--------------------------------------------------------------------------------
+Chunk #7
+--------------------------------------------------------------------------------
+
+📊 Metadata:
+  ⏱️  Timestamp: 00:04:13,383 --> 00:04:24,520
+  🔢 Subtitle Index: 68
+  📝 Sentences: 3
+
+📄 Content:
+nọ. Còn nếu như các bạn bắt đầu đép rồi thì các bạn sẽ chuyển sang Linux Hiện nay ở trong thế giới mà làm backend hay là làm system hay là làm frontend nói chung là làm những cái hệ thống nói chung thì những công cụ dành
+
+
+--------------------------------------------------------------------------------
+Chunk #8
+--------------------------------------------------------------------------------
+
+📊 Metadata:
+  ⏱️  Timestamp: 00:04:25,020 --> 00:05:12,392
+  🔢 Subtitle Index: 71
+  📝 Sentences: 13
+
+📄 Content:
+cho Linux nó xuất hiện rất là nhiều và thậm chí cái server mà chúng ta chạy nó cũng là Linux đa số cho nên nếu mà các bạn dùng một cái môi trường nó tương tự như vậy thì Nó cũng hợp lý. Nhưng mà cuối cùng các bạn, cái mà quan trọng nhất để các bạn đưa ra quyết định là các bạn lựa cái máy nào. Thứ nhất là sở thích cá nhân của các bạn là gì và thứ hai là cái việc bạn làm. Đó. Nó chỉ xây quanh nhiều đó thôi. Mình ví dụ như bây giờ các bạn làm những thứ liên quan tới SharePoint mà các bạn làm mát. Khó lắm. Rồi bây giờ các bạn làm app iOS mà các bạn xài máy Win? Đâu có được đâu. Và ngay cả khi các bạn dùng những công cụ mà nó gọi là cross-platform, tức là nó có xuất hiện trên bất kỳ nền bản nào, thì nó lại phụ thuộc nhiều vào cái sở thích. Bây giờ ví dụ như bạn thích Dell XPS 13 đi, xong rồi mình kêu, không, bạn không được xài, bạn bắt buộc phải xài máy Mac, rồi thì làm sao mà xài nổi, đúng không? mình nhìn vô
+
+
+--------------------------------------------------------------------------------
+Chunk #9
+--------------------------------------------------------------------------------
+
+📊 Metadata:
+  ⏱️  Timestamp: 00:05:12,892 --> 00:05:25,732
+  🔢 Subtitle Index: 84
+  📝 Sentences: 4
+
+📄 Content:
+cái máy là còn thấy chán mà chứ đừng có nói là cầm máy lên mà xài mà làm việc mỗi ngày cả chục tiếng nên các bạn đi mua máy để các bạn làm việc không tính đến tình huống mà công ty cấp ha thì các bạn cứ coi cái sở thích của mình là gì và cái bản chất của
+
+
+--------------------------------------------------------------------------------
+Chunk #10
+--------------------------------------------------------------------------------
+
+📊 Metadata:
+  ⏱️  Timestamp: 00:05:26,232 --> 00:05:47,962
+  🔢 Subtitle Index: 88
+  📝 Sentences: 6
+
+📄 Content:
+công việc đừng có suy nghĩ nhiều quá bạn cũng không cần phải nghe quá nhiều người tư vấn đâu trước đây mình cũng từng thấy một số ý kiến nói là cấp Macbook cho nhân viên thì rất là phí thì thật ra không phí đâu các bạn một con Macbook đó nó có thể sử dụng được cho khá là nhiều mục đích khác nhau Nó không chỉ dành cho những việc technical mà các bạn graphic, các bạn design trong công ty cũng có thể tận dụng lại Các bạn làm DevOps, các bạn làm system admin cũng có thể tận dụng
+
+
+--------------------------------------------------------------------------------
+Chunk #11
+--------------------------------------------------------------------------------
+
+📊 Metadata:
+  ⏱️  Timestamp: 00:05:48,462 --> 00:06:09,408
+  🔢 Subtitle Index: 94
+  📝 Sentences: 6
+
+📄 Content:
+lại Và chưa kể một cái máy đó bây giờ có thể cấp cho ông backend như ông đó sau này nghĩ thì cấp cho một ông frontend khác, cấp cho một ông làm app Android, iOS Nó đều có thể chạy được hết Cho nên tính ra một cái máy Mac nó cũng khá là đa dụng Và mình đi mình thấy là đa số những cái máy Mac ở trong các công ty nó có thể lên tới 5 năm và một số công ty vẫn còn cấp Macbook Pro 2015 mà chạy vẫn rất ngon và
+
+
+--------------------------------------------------------------------------------
+Chunk #12
+--------------------------------------------------------------------------------
+
+📊 Metadata:
+  ⏱️  Timestamp: 00:06:09,908 --> 00:08:14,102
+  🔢 Subtitle Index: 100
+  📝 Sentences: 33
+
+📄 Content:
+việc vẫn hoạt thành bình thường, không có vấn đề gì hết. Rồi chưa kể, những con máy Mac thường là nó sẽ đem lại trải nghiệm tốt hơn dành cho nhân viên như lúc nãy mình cũng có nói với các bạn rồi, màn hình chuột trackpad này nọ. Một cái điểm nữa, mình thấy các công ty hay chọn Mac là bởi vì họ tin là phần bảo mật của Mac OS nó tốt hơn Windows, là cái họ tin thôi nha, chứ chắc điều đó đã đúng nha. Khi mà họ đọc được những thông tin là từ máy Win thì nó có thể hack vô tiếp tới mail server, nó có thể hack vô tiếp tới những hệ thống vận hành kiểu kiểu như vậy thì người ta cũng ra một tâm lý sợ sệt. Riêng bản thân mình thì hiện tại mình đánh giá nguy cơ bảo mật của Mac và Win ở trong môi trường doanh nghiệp thì nó sẽ đều cao như nhau hết. Tại vì một khi kẻ xấu nó đã muốn đánh rồi thì nó đều sẽ đánh được thôi. Và bây giờ nó không chỉ đánh qua những file ESEA executable nữa mà nó sẽ đánh qua plugin trình duyệt, nó đánh qua web, nó đánh qua những cái lỗ hổng của trình duyệt bởi vì người ta xài những cái thứ đó nhiều hơn. Cho nên đó đối với bản thân mình thì nếu nói về cái việc bảo mật thì nó không phải là vấn đề để mà mình suy nghĩ phải chọn Dewin hay Mac. Bây giờ mình nói về chính bản thân mình đi. Tại sao mình chọn máy Mac làm công cụ làm việc chính của mình liên quan tới những việc technical? Thứ nhất là bởi vì để có được một con máy Win tốt ngang với lại một con máy Mac như vậy thì thường là bạn sẽ phải trả một cái tiền nó ngang hoặc là thậm chí cao hơn khá là nhiều. Các bạn thấy là cấu hình của những con máy Win thì nó rất là mạnh nhưng mà một cái máy tính ngoài cấu hình ra chúng ta còn có rất là nhiều những yếu tố khác cần phải quan tâm. Màn hình, trackpad, chất lượng hoàn thiện, thiết kế. đồ ổn định pin những yếu tố đó ở 1 máy Win để mà tốt thì cũng không hề rẻ hơn Macbook đâu nha các bạn các bạn có thể so với 1 laptop gaming 20 triệu với 1 Macbook Air cũng 20 triệu mà rõ ràng về cấu hình về sức mạnh thì cái con máy laptop gaming nó vượt trội hơn rất là nhiều so với lại 1 máy Macbook Air tuy nhiên nếu mà các bạn xét thêm về yếu tố build quality hay là trackpad chẳng hạn hay là thời lượng pin thì nó không còn những mục đích đó nữa Mình gần như là không có chơi game, chơi game thì mình chơi trên ipad, mình chơi đúng một trò là có đất đủ ti là hết rồi cho nên
+
+
+--------------------------------------------------------------------------------
+Chunk #13
+--------------------------------------------------------------------------------
+
+📊 Metadata:
+  ⏱️  Timestamp: 00:08:14,602 --> 00:08:28,422
+  🔢 Subtitle Index: 133
+  📝 Sentences: 4
+
+📄 Content:
+là mình cũng không quan tâm về phần game và mình đánh giá cao cái sự ổn định của Mac khi mà chạy những cái tool liên quan tới data, liên quan tới software, engineering, những cái mà mình làm mỗi ngày. Gặp vấn đề fix rất là dễ, rất là nhanh.
+
+
+--------------------------------------------------------------------------------
+Chunk #14
+--------------------------------------------------------------------------------
+
+📊 Metadata:
+  ⏱️  Timestamp: 00:08:28,602 --> 00:09:26,668
+  🔢 Subtitle Index: 137
+  📝 Sentences: 17
+
+📄 Content:
+Mình cũng muốn chia sẻ thêm là nếu như các bạn chưa đủ kinh phí để các bạn mua MacBook thì các bạn cứ xài máy Win để các bạn học lập trình, các bạn học IT, các bạn học về tech hay thậm chí các bạn đi làm cũng không vấn đề gì và cũng không ai đánh giá bạn liên quan tới cái máy mà các bạn làm ra hết. Một ông xài máy Win vẫn có thể làm ngang hoặc là giỏi hơn một ông xài máy Mac. Chuyện rất bình thường. Cái kiến thức nó nằm ở trong đầu bạn. Cái kiến thức nó nằm ở trong những cái mà bạn hiểu chứ không phải là nằm trong cái máy tính của bạn. Cho nên là các bạn cũng đừng có quá lo lắng về cái chuyện xài Win hay Mac. Một cách thành thật, thì nó nghiêng nhiều hơn về sở thích cá nhân. Đơn giản vậy thôi. Các bạn cũng đừng có nghe. Ví dụ như đừng cũng không cần hẳn là phải nghe mình. Mình khen MacBook vậy đó. Nhưng mà thật ra trong quá trình sử dụng Mac nó vẫn có lỗi. Rồi, đó là những gì mình muốn chia sẻ với các bạn liên quan tới việc developer sử dụng cái hệ điều hành nào. Các bạn có comment hay là có chia sẻ hay có ý kiến gì không? Mời các bạn comment vào trong cái video này chúng ta cùng thảo luận tiếp ha. Xin chào và hẹn gặp lại các bạn trong những cái video kế tiếp. Bye bye.
+
+
+================================================================================
+
+^C ELIFECYCLE  Command failed.
+
+t9tieanh@t9tieanh-Legion-5-15ACH6:~/learn/Semantic-Chunking-Typescript$ 
